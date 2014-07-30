@@ -37,6 +37,7 @@ h6,
     left: 32px;
   }
 
+  transform: rotate(-2deg);
 }
 
 
@@ -56,6 +57,7 @@ a {
 .main__content {
   width: 100%;
   background-color: gainsboro;
+  background-image: url("../img/brickwall.png");
 }
 
 
