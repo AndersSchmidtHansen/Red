@@ -65,6 +65,26 @@ h6,
 
 a {
   color: $c__highlight;
+
+  &.bookmarklet {
+    position: absolute;
+    padding: 1.618rem;
+    right: 0;
+    top: 120px;
+    font-weight: 700;
+    background-color: #c0392b;
+    color: ghostwhite;
+    text-shadow: 0 2px 0 rgba(0,0,0,.33);
+    border-radius: 4px;
+    box-shadow:
+      0 3px 5px 0px rgba(0,0,0,.32),
+      0 0 0 1px darken(#c0392b, 3%),
+      inset 0 1px 0 0px rgba(255,255,255,.45),
+      inset 0 0 0 1px rgba(255,255,255,.32)
+    ;
+
+
+  }
 }
 
 .wrapper {

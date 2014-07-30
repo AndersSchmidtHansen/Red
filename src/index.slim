@@ -39,7 +39,9 @@ html class="no-js" lang="en-US" itemscope="" itemtype="//schema.org/WebPage"
 
     / Load in your stylesheets here if more than the theme.css is needed
     link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
+    link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet'
     link rel="stylesheet" href="assets/css/style.min.css"
+
 
     / Load in any Javascript libraries that must be loaded before the content
     script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"
@@ -49,12 +51,14 @@ html class="no-js" lang="en-US" itemscope="" itemtype="//schema.org/WebPage"
     main role="main"
       section.main__content
         .wrapper
-          h1.site__title
+          h1.site__title data-subtitle="Steals ze' internet!"
             ' Red
             span Redhanded!
           .red-container
             .red style="background-image:url(//s3-us-west-2.amazonaws.com/s.cdpn.io/16584/red.svg)"
               img.web-gem style="display:none;" src="//getfavicon.appspot.com/http://www.google.com"
+
+            a.bookmarklet href="" Drag me to your bookmarks to play
 
       footer
 
