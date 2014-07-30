@@ -2,6 +2,36 @@
 =            Kaidan - Theme Stylesheet            =
 =================================================*/
 
+// Font Imports
+/**
+ * @license
+ * MyFonts Webfont Build ID 2855234, 2014-07-30T12:50:19-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Stgotic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/stgotic/regular/
+ * Copyright: Copyright (c) 2006 by Daniel Hernandez. All rights reserved.
+ * Licensed pageviews: 10,000
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2855234
+ *
+ * © 2014 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2b9142");
+
+
+@font-face {font-family: 'Stgotic';src: url('../fonts/2B9142_0_0.eot');src: url('../fonts/2B9142_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2B9142_0_0.woff') format('woff'),url('../fonts/2B9142_0_0.ttf') format('truetype');}
+
+
 // Import vendor
 @import "vendor/tooltipster";
 

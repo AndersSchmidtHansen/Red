@@ -24,6 +24,23 @@ h6,
   font-weight: $t__headline_weight;
 }
 
+// Site Title
+.site__title {
+  position: relative;
+  top: 100px;
+  margin-top: 0;
+  font-size: 4.618rem;
+  line-height: 1.8;
+  font-family: "Stgotic";
+
+  span {
+    left: 32px;
+  }
+
+}
+
+
+
 a {
   color: $c__highlight;
 }
@@ -40,6 +57,8 @@ a {
   width: 100%;
   background-color: gainsboro;
 }
+
+
 
 .red {
   left: 0;
