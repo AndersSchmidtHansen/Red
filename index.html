@@ -32,14 +32,17 @@
     <main role="main">
       <section class="main__content">
         <div class="wrapper">
-          <h1 class="site__title" data-subtitle="Steals ze&#39; internet!">
+          <h1 class="site__title" data-subtitle="Steals ze&#39; gems of ze&#39; internet!">
             Red <span>Redhanded!</span>
           </h1>
           <div class="red-container">
             <div class="red" style="background-image:url(//s3-us-west-2.amazonaws.com/s.cdpn.io/16584/red.svg)">
               <img class="web-gem" src="//getfavicon.appspot.com/http://www.google.com" style="display:none;" />
             </div>
-            <a class="bookmarklet" href="">Drag me to your bookmarks to play</a>
+            <div class="form-group" id="signup">
+              <input name="field__username" placeholder="Username" type="text" /><input name="field__password" placeholder="Password" type="password" />
+            </div>
+            <a class="bookmarklet" data-subtitle="Your content is not saved unless you sign up!" disabled="disabled" href="">Drag me to your bookmarks to play!</a>
           </div>
         </div>
       </section>

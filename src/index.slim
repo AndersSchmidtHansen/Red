@@ -51,14 +51,18 @@ html class="no-js" lang="en-US" itemscope="" itemtype="//schema.org/WebPage"
     main role="main"
       section.main__content
         .wrapper
-          h1.site__title data-subtitle="Steals ze' internet!"
+          h1.site__title data-subtitle="Steals ze' gems of ze' internet!"
             ' Red
             span Redhanded!
           .red-container
             .red style="background-image:url(//s3-us-west-2.amazonaws.com/s.cdpn.io/16584/red.svg)"
               img.web-gem style="display:none;" src="//getfavicon.appspot.com/http://www.google.com"
 
-            a.bookmarklet href="" Drag me to your bookmarks to play
+            .form-group#signup
+              input type="text" name="field__username" placeholder="Username"
+              input type="password" name="field__password" placeholder="Password"
+
+            a.bookmarklet data-subtitle="Your content is not saved unless you sign up!" disabled="disabled" href="" Drag me to your bookmarks to play!
 
       footer
 
