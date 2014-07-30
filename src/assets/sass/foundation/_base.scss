@@ -26,6 +26,20 @@ h6,
 
 // Site Title
 .site__title {
+
+  &:before {
+    content: attr(data-subtitle);
+    position: absolute;
+    left: 350px;
+    width: 100%;
+    bottom: -10px;
+    text-shadow: none;
+    font-family: $t__body_copy_font_stack;
+    font-size: 1.2rem;
+    color: $c__primary;
+
+  }
+
   position: relative;
   top: 100px;
   left: 50px;
