@@ -1,0 +1,64 @@
+/*======================================================
+=            Kaidan - Theme Base Stylesheet            =
+======================================================*/
+
+/*==========  Core  ==========*/
+html { font-size: 10px; } // Allows better font sizing with REMs
+body {
+  font-family      : $t__body_copy_font_stack;
+  font-size        : $t__default_font_size;
+  line-height      : $t__default_line_height;
+  color            : $c__base_text;
+  background-color : $c__primary;
+}
+
+/*==========  Typography  ==========*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h {
+  font-family: $t__headline_font_stack;
+  font-weight: $t__headline_weight;
+}
+
+a {
+  color: $c__highlight;
+}
+
+.wrapper {
+  max-width: 56rem;
+  min-height: 25rem;
+  margin: 0 auto;
+
+  border-radius: 4px 4px 0 0;
+}
+
+.main__content {
+  width: 100%;
+  background-color: gainsboro;
+}
+
+.red {
+  left: 0;
+  bottom: 0;
+  width: 180px;
+  height: 250px;
+  background-position: -220px 0;
+
+  .web-gem {
+    position: absolute;
+    right: 15px;
+    bottom: 80px;
+    animation: spin 2s linear infinite;
+  }
+}
+
+@keyframes spin {
+   100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+/*-----  End of Kaidan - Theme Base Stylesheet  ------*/
+
