@@ -28,16 +28,37 @@ h6,
 .site__title {
   position: relative;
   top: 100px;
+  left: 50px;
   margin-top: 0;
   font-size: 4.618rem;
-  line-height: 1.8;
+  line-height: 1.618;
   font-family: "Stgotic";
 
   span {
-    left: 32px;
+    left: 42px;
   }
 
   transform: rotate(-2deg);
+
+
+  // All the text shadow magic
+  color: #c0392b;
+  letter-spacing: 6px;
+  $shadow_stroke : 4px;
+  $shadow_color : #2b2b2b;
+  $darker_shadow_color : darken($shadow_color, 4%);
+  text-shadow: 0 $shadow_stroke 0 $shadow_color,
+               0 $shadow_stroke 0 $shadow_color,
+               $shadow_stroke 0 0 $shadow_color,
+               -4px 0 0 $shadow_color,
+               0 -4px 0 $shadow_color,
+
+               0 $shadow_stroke + 4 0 $darker_shadow_color,
+               0 $shadow_stroke + 4 0 $darker_shadow_color,
+               $shadow_stroke + 4 0 0 $darker_shadow_color,
+               -8px 0 0 $darker_shadow_color,
+               0 -8px 0 $darker_shadow_color;
+
 }
 
 
@@ -48,7 +69,7 @@ a {
 
 .wrapper {
   max-width: 56rem;
-  min-height: 25rem;
+  min-height: 45rem;
   margin: 0 auto;
 
   border-radius: 4px 4px 0 0;
@@ -63,16 +84,16 @@ a {
 
 
 .red {
-  left: 0;
+  left: -15px;
   bottom: 0;
   width: 180px;
-  height: 250px;
+  height: 320px;
   background-position: -220px 0;
 
   .web-gem {
     position: absolute;
     right: 15px;
-    bottom: 80px;
+    bottom: 155px;
     animation: spin 2s linear infinite;
   }
 }
